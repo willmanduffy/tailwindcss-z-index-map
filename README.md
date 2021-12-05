@@ -24,7 +24,7 @@ module.exports = {
   theme: {
     zIndexMap: ["lowest-item", "middle-item", "highest-item"],
   },
-  plugins: [require("tailwidcss-z-index-map")],
+  plugins: [require("tailwindcss-z-index-map")],
 };
 ```
 
