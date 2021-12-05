@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-z-index-map",
+  "version": "0.0.1",
+  "description": "Generate a z-index map with TailwindCSS to easily keep track of your project's z-index usage.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Willman Duffy",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.3",
+    "jest-diff": "^27.4.2",
+    "postcss": "^8.4.4",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^2.2.19"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest/customMatchers.js"
+    ]
+  }
+}
